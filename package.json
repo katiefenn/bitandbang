@@ -1,16 +1,16 @@
 {
-  "name": "bitandbang",
-  "version": "1.4.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "katiefenn",
+  "version": "1.0.1",
+  "description": "A personal card for Katie Fenn (@katie_fenn)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/katiefenn/bitandbang.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://www.katiefenn.co.uk",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Katie Fenn <katie.fenn@googlemail.com> (https://www.katiefenn.co.uk)",
   "license": "MIT",
   "files": [
     "bin/card.js",

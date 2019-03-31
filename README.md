@@ -1,9 +1,9 @@
-It's me, Tierney!
+Business card for Katie Fenn
 
 # Usage
 Via npx:
 ```
-npx bitandbang
+npx katiefenn
 ```
 
-Not including how to use it globally because I'm not sure why you'd want this as a global command. That'd be creepy.
+Forked from code by Tierney Cyren. Thank you for making this!

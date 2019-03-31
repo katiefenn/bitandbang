@@ -15,17 +15,19 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
+  name: chalk.white('               Katie Fenn'),
+  handle: chalk.white('katiefenn'),
+  work: chalk.white('Senior Engineer at ') + chalk.red('npm, inc'),
+  formerly: chalk.white('Senior Engineer at ') + chalk.white('Canonical'),
+  opensource: chalk.red('pa') + chalk.yellow('rk') + chalk.green('er') + chalk.white(', CSS code quality metrics'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('katie_fenn'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~katiefenn'),
+  github: chalk.gray('https://github.com/') + chalk.green('katiefenn'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('katie-fenn-505b3b25'),
+  web: chalk.cyan('https://www.katiefenn.co.uk'),
+  npx: chalk.red('npx') + ' ' + chalk.white('katiefenn'),
   labelWork: chalk.white.bold('       Work:'),
+  labelFormerly: chalk.white.bold('   Formerly:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
@@ -39,6 +41,7 @@ const data = {
 const newline = '\n'
 const heading = `${data.name} / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
+const formerlying = `${data.labelFormerly}  ${data.formerly}`
 const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
@@ -51,6 +54,7 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
+               formerlying + newline + // data.labelFormerly + data.formerly
                opensourcing + newline + newline + // data.labelOpenSource + data.opensource
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
